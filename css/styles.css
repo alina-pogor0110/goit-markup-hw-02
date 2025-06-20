@@ -1,0 +1,248 @@
+* {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Navigation section start */
+
+.header {}
+
+.header-navigation {}
+
+.header-navigation-logo-blue {
+    color: #4D5AE5;
+    font-family: "Raleway-Bold", Helvetica;
+    font-size: 18px;
+    font-weight: 700;
+    height: 21px;
+    letter-spacing: 0.54px;
+    line-height: 21px;
+    width: 44px;
+    text-transform: uppercase;
+}
+
+.header-navigation-logo {
+     font-family: "Raleway-Bold", Helvetica;
+     font-weight: 700;
+     color: #2E2F42;
+     font-size: 18px;
+     letter-spacing: 0.54px;
+     line-height: 21px;
+     text-transform: uppercase;
+}
+
+.header-navigation-list {}
+
+.header-navigation-list-item {}
+
+.header-navigation-list-item-anchor {
+    font-weight: 500;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    color: #2e2f42;
+}
+
+.header-contacts {}
+
+.header-contacts-address {}
+
+.header-contacts-address-list {}
+
+.header-contacts-address-list-item {
+    font-weight: 400;
+    font-size: 16px;
+    color: #434455;
+}
+
+.header-contacts-address-list-item-number {
+    font-weight: 400;
+    font-size: 16px;
+    color: #434455;
+}
+
+.header-contacts-address-list-item-email {
+    font-weight: 400;
+    font-size: 16px;
+    color: #434455;
+}
+
+/* Navigation section end */
+
+/* Hero-banner section start */
+.hero-banner {
+    background-image: url(/images/background.jpg);
+    height: 600px;
+    width: 1440px;
+}
+
+.hero-banner-title {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 56px;
+    font-family: Roboto, sans-serif;
+    line-height: 1.07143;
+    letter-spacing: 0.02em;
+    text-align: center;
+
+}
+
+.hero-banner-button {
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFFFF;
+    cursor: pointer;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    background-color: #4D5AE5;
+}
+
+.hero-banner-button:hover {
+    background-color: #404BBF;
+}
+
+
+/* Hero-banner section end */
+
+/* Benefits section start */
+
+.benefits {}
+
+.benefits-list {}
+
+.benefits-list-item {}
+
+.benefits-title {
+    color: #2E2F42;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.benefits-list-item-text {
+    font-weight: 400;
+    font-size: 16px;
+    color: #434455;
+    font-family: "Roboto", sans-serif;
+}
+
+/* Benefits section end */
+
+/* Team section start */
+
+.team {
+    background-color: #F4F4FD;
+}
+
+.team-title {
+    font-weight: 700;
+    font-size: 36px;
+    color: #2e2f42;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+}
+
+.team-list {}
+
+.team-list-item {
+    background-color: #fff;
+    width: 264px;
+    height: 380px;
+}
+
+.team-list-item-image {}
+
+.team-list-item-title {
+    font-weight: 500;
+    font-size: 20px;
+    color: #2e2f42;
+    font-family: "Roboto", sans-serif;
+}
+
+.team-list-item-text {
+    font-weight: 400;
+    font-size: 16px;
+    color: #434455;
+    font-family: "Roboto", sans-serif;
+
+}
+
+/* Team section end */
+
+/* Portfolio section start */
+
+.portfolio {}
+
+.portfolio-title {
+    font-weight: 700;
+    font-size: 36px;
+    color: #2e2f42;
+    font-family: "Roboto", sans-serif;
+}
+
+.portfolio-list {}
+
+.portfolio-list-item {
+    background-color: #fff;
+    width: 360px;
+    height: 420px;
+}
+
+.portfolio-list-item-image {}
+
+.portfolio-list-item-title {
+    font-weight: 500;
+    font-size: 20px;
+    color: #2e2f42;
+    font-family: "Roboto", sans-serif;
+}
+
+.portfolio-list-item-text {
+    font-weight: 400;
+    font-size: 16px;
+    color: #434455;
+    font-family: "Roboto", sans-serif;
+}
+
+/* Portfolio section end */
+
+/* Footer section start */
+
+.bottom {
+    background-color: #2e2f42;
+    width: 1440px;
+    height: 312px;
+}
+
+.bottom-anchor-blue {
+    color: #4D5AE5;
+    font-family: "Raleway-Bold", Helvetica;
+    font-size: 18px;
+    font-weight: 700;
+    height: 21px;
+    letter-spacing: 0.54px;
+    line-height: 21px;
+    width: 44px;
+    text-transform: uppercase;
+}
+
+.bottom-anchor {
+    font-family: "Raleway-Bold", Helvetica;
+    font-weight: 700;
+    color: #f4f4fd;
+    font-size: 18px;
+    letter-spacing: 0.54px;
+    line-height: 21px;
+    text-transform: uppercase;
+}
+
+.bottom-text {
+    font-weight: 400;
+    font-size: 16px;
+    color: #f4f4fd;
+    font-family: "Roboto", sans-serif;
+}
+
+/* Footer section end */

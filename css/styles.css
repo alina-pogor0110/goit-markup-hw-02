@@ -9,6 +9,7 @@ a {
 body {
     font-family: "Roboto", sans-serif;
     background-color: #fff;
+    color: #434455;
 }
 
 /* Navigation section start */
@@ -19,18 +20,16 @@ body {
 
 .header-navigation-logo {
     color: #4d5ae5;
-    font-family: "Raleway-Bold", sans-serif;
+    font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 700;
-    height: 21px;
     letter-spacing: 0.54px;
     line-height: 1.17;
-    width: 44px;
     text-transform: uppercase;
 }
 
 .header-navigation-logo-simple {
-     font-family: "Raleway-Bold", sans-serif;
+     font-family: "Raleway", sans-serif;
      font-weight: 700;
      color: #2e2f42;
      font-size: 18px;
@@ -55,7 +54,7 @@ body {
     color: #404bbf;
 }
 
-.header-navigation-list-item-anchor:active {
+.header-navigation-list-item-anchor:focus {
     color: #404bbf;
 }
 
@@ -69,8 +68,17 @@ body {
 .header-contacts-address-list-item {
     font-weight: 400;
     font-size: 16px;
-    color: #434455;
     letter-spacing: 0.02em;
+    line-height: 1.5;
+    color: #434455;
+}
+
+.header-contacts-address-list-item:hover {
+    color: #404bbf;
+}
+
+.header-contacts-address-list-item:focus {
+    color: #404bbf;
 }
 
 .header-contacts-address-list-item-number {
@@ -86,8 +94,6 @@ body {
 /* Hero-banner section start */
 .hero-banner {
     background-color: #2e2f42;
-    height: 600px;
-    width: 1440px;
 }
 
 .hero-banner-title {
@@ -114,7 +120,7 @@ body {
     background-color: #404BBF;
 }
 
-.hero-banner-button:active {
+.hero-banner-button:focus {
     background-color: #404BBF;
 }
 
@@ -133,12 +139,16 @@ body {
     color: #2E2F42;
     font-weight: 500;
     font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 
 .benefits-list-item-text {
     font-weight: 400;
     font-size: 16px;
     color: #434455;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 /* Benefits section end */
@@ -181,6 +191,8 @@ body {
     font-weight: 400;
     font-size: 16px;
     color: #434455;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 /* Team section end */
@@ -233,7 +245,7 @@ body {
 
 .bottom-anchor {
     color: #4d5ae5;
-    font-family: "Raleway-Bold", sans-serif;
+    font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 700;
     letter-spacing: 0.54px;
@@ -243,7 +255,7 @@ body {
 }
 
 .bottom-anchor-simple {
-    font-family: "Raleway-Bold", sans-serif;
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     color: #f4f4fd;
     font-size: 18px;

@@ -66,6 +66,10 @@ body {
 .header-contacts-address-list {}
 
 .header-contacts-address-list-item {
+}
+
+
+.header-contacts-address-list-item-link {
     font-weight: 400;
     font-size: 16px;
     letter-spacing: 0.02em;
@@ -73,21 +77,14 @@ body {
     color: #434455;
 }
 
-.header-contacts-address-list-item:hover {
+.header-contacts-address-list-link:hover {
     color: #404bbf;
 }
 
-.header-contacts-address-list-item:focus {
+.header-contacts-address-list-link:focus {
     color: #404bbf;
 }
 
-.header-contacts-address-list-item-number {
-    
-}
-
-.header-contacts-address-list-item-email {
-    
-}
 
 /* Navigation section end */
 
@@ -173,8 +170,6 @@ body {
 
 .team-list-item {
     background-color: #fff;
-    width: 264px;
-    height: 380px;
 }
 
 .team-list-item-image {}

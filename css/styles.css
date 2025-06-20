@@ -65,11 +65,7 @@ body {
 
 .header-contacts-address-list {}
 
-.header-contacts-address-list-item {
-}
-
-
-.header-contacts-address-list-item-link {
+.header-contacts-address-list-link {
     font-weight: 400;
     font-size: 16px;
     letter-spacing: 0.02em;
